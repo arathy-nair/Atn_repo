@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Devops demo</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LY_DEVOPS_FGTOP</SOBJ_NAME>
+    <SOBJ_NAME>Y_DEVOPS_ST===================XTI</SOBJ_NAME>
+    <SOBJ_NAME>SAPLY_DEVOPS_FG</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>Y_DEVOPS_FM</FUNCNAME>
+     <SHORT_TEXT>devops demo</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>REL_OBJ</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>REF TO Y_DEVOPS_CLASS</TYP>
+       <REF_CLASS>X</REF_CLASS>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>REL_OBJ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Devops demo</STEXT>
+       <INDEX> 001</INDEX>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,14 @@
+<?sap.transform simple?>
+<tt:transform xmlns:tt="http://www.sap.com/transformation-templates" xmlns:ddic="http://www.sap.com/abapxml/types/dictionary" xmlns:def="http://www.sap.com/abapxml/types/defined">
+  <tt:root name="ROOT" type="?"/>
+  <tt:root name="RELEASE_DETAILS" type="ddic:YDEVOPS_STRUCT"/>
+  <tt:template>
+    <RELEASE_DETAILS>
+      <BRANCH tt:value-ref=".RELEASE_DETAILS.BRANCH"/>
+      <REL_NO tt:value-ref=".RELEASE_DETAILS.REL_NO"/>
+      <REL_YEAR tt:value-ref=".RELEASE_DETAILS.REL_YEAR"/>
+      <LEAD tt:value-ref=".RELEASE_DETAILS.LEAD"/>
+      <SCOPE_CNT tt:value-ref=".RELEASE_DETAILS.SCOPE_CNT"/>
+    </RELEASE_DETAILS>
+  </tt:template>
+</tt:transform>
